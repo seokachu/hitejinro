@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>하이트진로</title>
+
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	
+	<!-- font awesome-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	
+	<!-- ogp -->
+	<meta property="og:title" content="하이트진로 Portfolio" />
+    <meta property="og:description" content="ParkSeoyoung_portfolio 하이트진로 리뉴얼" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://staybomi.dothome.co.kr/portfolio2/" />
+    <meta property="og:image" content="http://staybomi.dothome.co.kr/portfolio2/images/" />
+	 
+	<!-- jquery -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" integrity="sha512-3n19xznO0ubPpSwYCRRBgHh63DrV+bdZfHK52b1esvId4GsfwStQNPJFjeQos2h3JwCmZl0/LgLxSKMAI55hgw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="js/jquery.fullpage.min.js"></script>
+	<!-- main -->
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<script defer src="js/main.js"></script>
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="header_wrap jcc">
+				<h1 class="logo"><a href="index.html">하이트진로</a></h1>
+				<div class="gnb">
+					<ul class="gnb_list jcc">
+						<li><a href="">login</a></li>
+						<li><a href="">회원가입</a></li>
+						<li class="search"><a href=""><i class="fas fa-search"></i></a></li>
+					</ul>
+					<p class="header_bar"><a href=""><i class="fas fa-bars"></i></a></p>
+				</div>
+			</div>
+			<nav>
+				<ul class="main_menu jcc">
+					<li class="active">
+						<a href="">회사소개</a>
+						<i class="fas fa-caret-down"></i>
+						<ul class="sub_menu">
+							<li><a href="intro.html">하이트진로</a></li>
+							<li><a href="">연혁</a></li>
+							<li><a href="">IR</a></li>
+							<li><a href="">공장소개</a></li>
+							<li><a href="directions.html">오시는길</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">제품소개</a>
+						<i class="fas fa-caret-down"></i>
+						<ul class="sub_menu">
+							<li><a href="newproduct.html">신제품</a></li>
+							<li><a href="">대표브랜드</a></li>
+							<li><a href="allproduct.html">전체제품보기</a></li>
+							<li><a href="">주류 가이드</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">지속가능경영</a>
+						<i class="fas fa-caret-down"></i>
+						<ul class="sub_menu">
+							<li><a href="">경영 및 인증방침</a></li>
+							<li><a href="">성공사례</a></li>
+							<li><a href="">사회공헌</a></li>
+							<li><a href="">동반성장</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">고객센터</a>
+						<i class="fas fa-caret-down"></i>
+						<ul class="sub_menu">
+							<li><a href="faq.html">FAQ</a></li>
+							<li><a href="qna.html">QnA</a></li>
+							<li><a href="">장학생</a></li>
+							<li><a href="">골프대회</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">인재채용</a>
+						<i class="fas fa-caret-down"></i>
+						<ul class="sub_menu">
+							<li><a href="talented.html">인재상</a></li>
+							<li><a href="">직무소개</a></li>
+							<li><a href="">채용절차</a></li>
+							<li><a href="">복리후생</a></li>
+							<li><a href="">지원자도우미</a></li>
+						</ul>
+					</li>
+				</ul>
+				<p class="close_bar"><a href=""><i class="fas fa-times"></i></a></p>
+			</nav>
+		</div>
+	</header>
+	<div class="search_wrapper">
+		<h2 class="hidden">search</h2>
+		<form>
+			<div class="search_text">
+				<label for="search_txt"></label>
+				<input type="text" id="search_txt" placeholder="검색어를 입력하세요.">
+				<a href="" class="close_icon"><i class="fas fa-search"></i></a>
+			</div>
+			<button type="button" class="search_close">닫기<i class="fas fa-times"></i></button>
+		</form>
+	</div>	
+	<main id="fullpage">
+		<section class="main1_wrapper section" id="section1">
+			<div class="main_slide_wrapper">
+				<h2 class="hidden">하이트진로 광고</h2>
+				<ul class="main_slide_list">
+					<li>
+						<div class="full_bg">
+							<video src="https://res.cloudinary.com/http-www-naver-com/video/upload/v1632232538/%EC%B0%B8%EC%9D%B4%EC%8A%AC_CF_-_%EC%9D%B4%EC%8A%AC%EC%9D%98_%EC%88%B2_%ED%8E%B8_15_yytzeg.mp4" class="video_1 slide" muted autoplay loop controlslist="nodownload"></video>						
+						</div>
+						<div class="video_text">
+							<h3>참이슬 fresh</h3>
+							<p>이슬같이 깨끗한 다음날</p>
+						</div>
+					</li>
+					<li>
+						<div class="full_bg">
+							<video src="https://res.cloudinary.com/http-www-naver-com/video/upload/v1632232538/%EC%B2%AD%EC%A0%95%EB%9D%BC%EA%B1%B0_%ED%85%8C%EB%9D%BC_TERRA_CF_-_%EB%A6%AC%EC%96%BC%ED%83%84%EC%82%B0_%ED%8E%B8_15_sbutjf.mkv" class="video_2 slide" muted autoplay loop controlslist="nodownload"></video>
+						</div>
+						<div class="video_text">
+							<h3>청정라거 Terra</h3>
+							<p>리얼탄산 100%, 청정맥아 100%</p>
+						</div>
+					</li>
+					<li>
+						<div class="full_bg">
+							<video src="https://res.cloudinary.com/http-www-naver-com/video/upload/v1633354048/%EC%A7%84%EB%A1%9C_CF_-_%EC%BA%A1%ED%8B%B4%EA%BB%8D_%ED%8E%B8_15_pikyvx.mkv" muted autoplay loop controlslist="nodownload"></video>	
+						</div>
+						<div class="video_text">
+							<h3>소주의 원조 진-로</h3>
+							<p>초 깔끔한 맛</p>
+						</div>
+					</li>
+				</ul>
+				<div class="video_btn">
+					<a href="" class="video_left"><i class="fas fa-chevron-circle-left"></i></a>
+					<a href="" class="video_right"><i class="fas fa-chevron-circle-right"></i></a>
+				</div>
+				<div class="mouse">
+					<span class="wheele"></span>
+				</div>
+			</div>
+		</section>
+		<section class="brand_wrapper section" id="section2">
+			<div class="brand_wrap">
+				<h2>브랜드 소개</h2>
+				<ul class="brand_list">
+					<li>
+						<div class="brand_slide_wrap">
+							<div class="brand_slide_img">
+								<img src="images/brand_1.png" alt="brand img">
+							</div>
+							<div class="brand_txt jcc">
+								<p>진로 이즈 백!<span>소주의 원조, 진로가 돌아왔다.</span></p>
+								<p>대한민국 원조 소주 진로의 옛 감성과 향수 그대로<br>감각적인 맛과 디자인으로 돌아왔습니다.</p>
+								<button>제품보러가기<i class="fas fa-arrow-right"></i></button>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="brand_slide_wrap">
+							<div class="brand_slide_img">
+								<img src="images/brand_2.png" alt="brand img">
+								<img src="images/brand_2-1.png" alt="brand img" class="image_bg" id="main2_img_bg1">
+							</div>
+							<div class="brand_txt jcc">
+								<p>청정라거 시대개막!<span>시대의 돌풍을 일으킬 청정라거, TERRA</span></p>
+								<p>호주에서 자란 청정맥아와 리얼탄산100%을 사용해<br>거품은 조밀하고 탄산은 오래 지속됩니다. </p>
+								<button>제품보러가기<i class="fas fa-arrow-right"></i></button>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="brand_slide_wrap">
+							<div class="brand_slide_img">
+								<img src="images/brand_3.png" alt="brand img">
+								<img src="images/brand_3-1.png" alt="brand img" class="image_bg" id="main2_img_bg2">
+							</div>
+							<div class="brand_txt jcc">
+								<p>이슬같이 깨끗한 다음날<span>대나무 숯으로 걸러 깨끗한 참이슬 fresh</span></p>
+								<p>대나무 숯으로 4번 걸러 더 깨끗한 목넘김과<br>이슬형태의 곡선 라벨로 더욱 트렌디해진 참이슬 fresh</p>
+								<button>제품보러가기 <i class="fas fa-arrow-right"></i></button>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<div class="brand_btn">
+					<button type="button" class="btn_next"><i class="fas fa-angle-right"></i></button>
+					<button type="button" class="btn_prev"><i class="fas fa-angle-left"></i></button>
+				</div>
+				<ul class="main2_pager">
+				</ul>
+			</div>
+		</section>
+		<section class="main3_news container section" id="section3">
+			<h2>하이트진로 소식</h2>
+			<div class="news_wrapper container">
+				<ul class="news_list">
+					<li>
+						<a href="" class="news_hover">
+							<div class="img_front">
+								<img src="images/news_1.png" alt="news_image1">
+							</div>
+							<div class="img_back">
+								<p>진로이즈백<span>폰꾸 패키지 출시!</span></p>
+								<p>view more</p>
+							</div>
+						</a>
+						<p>진로 X 슈피겐 콜라보패키지</p>
+					</li>
+					<li>
+						<a href="" class="news_hover">
+							<div class="img_front">
+								<img src="images/news_2.png" alt="news_image2">
+							</div>
+							<div class="img_back">
+								<p>참이슬 X 제이에스티나<span>한정판 패키지 출시!</span></p>
+								<p>view more</p>
+							</div>
+						</a>
+						<p>참이슬 X 제이에스티나 패키지</p>
+					</li>
+					<li>
+						<a href="" class="news_hover">
+							<div class="img_front">
+								<img src="images/news_3.png" alt="news_image3">
+							</div>
+							<div class="img_back">
+								<p>두껍상회<span>광주점 오픈!</span></p>
+								<p>view more</p>
+							</div>
+						</a>
+						<p>두껍상회 4탄, 광주점 오픈</p>
+					</li>
+				</ul>
+			</div>
+			<div class="news_btn">
+				<a href="" class="news_left"><i class="fas fa-chevron-circle-left"></i></a>
+				<a href="" class="news_right"><i class="fas fa-chevron-circle-right"></i></a>
+			</div>
+		</section>
+		<section class="main4_social section" id="section4">
+			<div class="social_wrapper container jcc">
+				<h2 class="hidden">하이트진로 SNS</h2>
+				<div class="social_blog">
+					<div class="blog_bar social_bar jcc">
+						<img src="images/blog.png" alt="blog_logo">
+						<i class="fas fa-angle-double-right"></i>
+					</div>
+					<div class="blog_content social_content">
+						<h3>hitejinro blog</h3>
+						<ul class="blog_list jcc">
+							<li>
+								<img src="images/blog1.png" alt="blog content">
+								<p>무더위를 식혀줄 스릴러 영화 속 음식</p>
+							</li>
+							<li>
+								<img src="images/blog2.png" alt="blog content">
+								<p>도시속 캠핑 즐기기</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="social_facebook">
+					<div class="facebook_bar social_bar jcc">
+						<img src="images/facebook.png" alt="facebook_logo">
+						<i class="fas fa-angle-double-right"></i>
+					</div>
+					<div class="facebook_content social_content">
+						<h3>hitejinro facebook</h3>
+						<ul class="jcc">
+							<li>
+								<img src="images/facebook1.png" alt="facebook content">
+								<p>#나의_여름 #가장_푸르던_이슬_숲</p>
+								<p>#바라만_봐도_마음의_정화</p>
+							</li>
+							<li>
+								<img src="images/facebook2.png" alt="facebook content">
+								<p>#수박주</p>
+								<p>#더울땐_시원한_술박이지</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="social_youtube">
+					<div class="youtube_bar social_bar jcc">
+						<img src="images/youtube.png" alt="youtube_logo">
+						<i class="fas fa-angle-double-right"></i>
+					</div>
+					<div class="youtube_content social_content">
+						<h3>hitejinro tv</h3>
+						<ul>
+							<li><iframe width="637" height="378" src="https://www.youtube.com/embed/ija5I7ZMSWY?controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+							<li>
+								<p>참이슬 x J.ESTINA 리미티드 패키지 : 아이유 언박싱</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="social_insta">
+					<div class="insta_bar social_bar jcc">
+						<img src="images/insta.png" alt="insta_logo">
+						<i class="fas fa-angle-double-left"></i>
+					</div>
+					<div class="insta_content social_content">
+						<h3>hitejinro insta</h3>
+						<ul class="jcc">
+							<li>
+								<a href="">
+									<p>View More &rarr;</p>
+									<img src="images/insta1.png" alt="insta_img">
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<p>View More &rarr;</p>
+									<img src="images/insta2.png" alt="insta_img">
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<p>View More &rarr;</p>
+									<img src="images/insta3.png" alt="insta_img">
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<p>View More &rarr;</p>
+									<img src="images/insta4.png" alt="insta_img">
+								</a></li>
+							<li>
+								<a href="">
+									<p>View More &rarr;</p>
+									<img src="images/insta5.png" alt="insta_img">
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<p>View More &rarr;</p>
+									<img src="images/insta6.png" alt="insta_img">
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="social_twitter">
+					<div class="twitter_bar social_bar jcc">
+						<img src="images/twitter.png" alt="twitter_logo">
+						<i class="fas fa-angle-double-left"></i>
+					</div>
+					<div class="twitter_content social_content">
+						<h3>hitejinro twitter</h3>
+						<ul class="jcc">
+							<li>
+								<img src="images/twitter1.png" alt="twitter img">
+								<p>#꿈을_꾸듯_이슬요정님만</p>
+								<p>#바라보고_있어요</p>
+								<p>#참이슬 #아이유 #IU</p>
+							</li>
+							<li>
+								<img src="images/twitter2.png" alt="twitter img">
+								<p>#홍차소주 #기범주</p>
+								<p>#천상의_맛</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="main5_company container section" id="section5">
+			<h2>국민기업에서 세계기업으로 힘차게 도약합니다</h2>
+			<div class="charts">
+				<div class="chart jcc">
+					<div class="chart_wrap">
+						<div class="chart_text">
+							<span data-num="67">0</span>년
+						</div>
+						<p>역사</p>
+					</div>
+					<div class="chart_wrap">
+						<div class="chart_text">
+							<span data-num="1">0</span>위
+						</div>
+						<p>국내음료업계</p>
+					</div>
+					<div class="chart_wrap">
+						<div class="chart_text">
+							<span data-num="2.25">0</span>억
+						</div>
+						<p>매출액</p>
+					</div>
+					<div class="chart_wrap">
+						<div class="chart_text">
+							<span data-num="82">0</span>개국
+						</div>
+						<p>해외수출</p>
+					</div>
+					<div class="chart_wrap">
+						<div class="chart_text">
+							<span data-num="99.1">0</span>%
+						</div>
+						<p>소비자만족</p>
+					</div>
+				</div>
+			</div>
+			<div class="companys">
+				<ul class="company_list">
+					<li>
+						<a href="">
+							<img src="images/company1.png" alt="job info">
+							<p>채용정보</p>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="images/company2.png" alt="social contribution">
+							<p>사회공헌</p>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="images/company3.png" alt="factory news">
+							<p>공장소식</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<footer class="section fp-auto-height">
+			<div class="footer_wrapper container jcsb">
+				<h2 class="footer_logo">하이트진로</h2>
+				<div class="fnb">
+					<ul class="fnb_list">
+						<li><a href="">개인정보처리방침</a></li>
+						<li><a href="">회원이용약관</a></li>
+						<li><a href="">이메일무단수집거부</a></li>
+						<li><a href="">동반성장</a></li>
+						<li><a href="">청음고(부정제보)</a></li>
+						<li><a href="">공시정보관리규정</a></li>
+						<li><a href="">공정거래자율준수</a></li>
+					</ul>
+					<address>
+						<ul class="footer_addr">
+							<li>서울특별시 강남구 영동대로 714 하이트진로빌딩</li>
+							<li>대표전화 080-210-0150</li>
+							<li>사업자등록번호 214-87-00777</li>
+						</ul>
+						<p>Copyright &copy;2016 HITEJINRO CO.LTD. ALL RIGHTS RESERVED.</p>
+					</address>
+				</div>
+				<div class="family_site">
+					<a href="">패밀리사이트<i class="fas fa-caret-down"></i></a>
+					<ul class="family_site_list">
+						<li><a href="https://www.jinro.co.jp/" target="_blank">진로 재팬</a></li>
+						<li><a href="https://www.blueheron.co.kr/" target="_blank">블루헤런</a></li>
+						<li><a href="https://www.hitejinrobeverage.com/new/dist/" target="_blank">하이트진로음료㈜</a></li>
+						<li><a href="https://hitejinroamerica.com/" target="_blank">진로 아메리카</a></li>
+						<li><a href="http://www.hitejinroholdings.com/renew/main/main.asp" target="_blank">하이트진로 홀딩스</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</main>	
+	<div class="popup-box">
+		<span class="popup_close"><i class="fas fa-window-close"></i></span>
+        <h3>본 사이트는 구직용 개인 포트폴리오 사이트 입니다.</h3>
+        <h4>하이트진로 회사와 무관함을 안내드립니다.</h4>
+		<p>이미지와 내용의 저작권은 <strong>㈜하이트진로</strong>에 있습니다.</p>
+		<div class="portfolio_list">
+			<p><span>학습기간 : </span>2021.06.16 ~ 2021.12.08</p>
+			<p><span>제작기간 : </span>2021.07.31 ~ 2021.10.26 (3개월)</p>
+			<p><span>주요기술 : </span> HTML, CSS(FLEX), SCRIPT(jQuery/Library), 반응형</p>
+		</div>
+		<div class="portfolio_sub_list">
+			<p>구현 완료 페이지 (각 페이지 클릭)</p>
+			<ul class="portfolio_subpage_list">
+				<li><a href="index.html">메인화면</a></li>
+				<li><a href="intro.html">하이트진로</a></li>
+				<li><a href="directions.html">오시는길</a></li>
+				<li><a href="newproduct.html">신제품</a></li>
+				<!--<li><a href="">대표브랜드</a></li>-->
+				<li><a href="allproduct.html">전체제품보기</a></li>
+				<!--<li><a href="">사회공헌</a></li>-->
+				<li><a href="faq.html">FAQ</a></li>
+				<li><a href="qna.html">QnA</a></li>
+				<li><a href="talented.html">인재상</a></li>
+				<li><a href="login.html">로그인</a></li>
+				<li><a href="join.html">회원가입</a></li>
+			</ul>	
+		</div>
+		<p class="portfolio_name">
+			<i class="far fa-envelope"></i>
+			박서영 <a href="mailto:staysseo@naver.com">staysseo@naver.com</a></p>
+        <div class="popup_close_box">
+			<input type="checkbox" id="oneday-close">
+            <label for="oneday-close">오늘 하루 안보기</label> 
+        </div>
+    </div>
+</body>
+</html>

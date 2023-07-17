@@ -1,0 +1,762 @@
+@import url(main.css);
+
+@media (max-width:1170px){
+	/*-------------- COMMON --------------*/
+	/* MAIN */
+	.container {
+		width:100%;
+	}
+
+	.slide_wrapper{
+		width:100%;
+	}
+
+	main>.subpage_content_wrapper{
+		width:100%;
+	}
+
+	.brand_slide_wrap{
+		gap:100px;
+	}
+
+	.companys .company_list{
+		max-width:95%;
+		margin:0 auto;
+	}
+	
+	
+	/* FOOTER */
+	footer{
+		width:100%;
+	}
+
+	footer .footer_wrapper .footer_logo{
+		width:150px;
+		background-size:contain;
+	}
+
+	/*-------------- SUBPAGE --------------*/
+	/* 회사소개 */
+	.think_company {
+		gap:0;
+		padding:0 170px;
+		justify-content:space-between;
+	}
+
+	.think_company img{
+		width:55%;
+	}
+
+	.think_company2_list{
+		gap:80px;
+	}
+
+	.think_company3 h4{
+		max-width:90%;
+		margin:0 auto;
+	}
+
+	/* 오시는 길 */
+	#map{
+		max-width:80%;
+		margin:0 auto 54px;
+	}
+
+	.sub_addr{
+		width:100%;
+	}
+
+	.traffic{
+		gap:20px;
+	}
+
+	/* 신제품 */
+	.new_product_wrap>div{
+		max-width:90%;
+	}
+
+	.new_brand_wrap>.new_product_wrap:nth-of-type(2n-1)>div>.new_product_txt{
+		padding-right:0;
+	}
+
+	.new_product_img img{
+		width:100%;
+	} 
+
+	/* 전체제품보기 */
+	.product_list{
+		padding:0 20px;
+	}
+
+	.mix-wrapper>div{
+		width:21.3%;
+	}
+
+	/* FAQ */
+	.faq_tab_list{
+		max-width:90%;
+		margin:0 auto;
+	}
+
+	.faq_tab .tabs_content{
+		padding:50px 80px;
+	}
+
+	/* QnA */
+	.pagenate_table{
+		max-width:90%;
+		margin:0 auto;
+	}
+
+	.qna_write{
+		right:5%;
+	}
+
+	/* 인재상 */
+	main>.subpage_content_wrapper.people_wrapper{
+		padding:108px 0;
+	}
+
+	.people_info{
+		padding:0 54px;
+	}
+
+	.people_info_list li{
+		padding:50px 0 0 30px;
+	}
+
+	.people_info_list li p{
+		font-size:16px;
+	}
+
+	.people_info_list li p:nth-of-type(1){
+		font-size:20px;
+	}
+
+	.people_info_list li p:nth-of-type(3){
+		font-size:14px;
+	}
+
+	.people_info_list_etc .people_info_wrap h3{
+		font-size:33px;
+	}
+}
+
+@media (max-width:970px){
+	/* FOOTER */
+	footer .footer_wrapper .footer_logo{
+		width:120px;
+	}
+
+	footer .family_site{
+		font-size:12px;
+	}
+
+	.fnb{
+		font-size:12px;
+	}
+
+	footer .footer_wrapper .fnb .fnb_list{
+		flex-wrap:wrap;
+	}
+}
+
+@media (max-width:900px){
+	/* MAIN */
+	.brand_slide_wrap{
+		gap:60px;
+	}
+
+	.charts .chart{
+		gap:70px;
+	}
+
+	/* 회사소개 */
+	.think_company{
+		padding:0 100px;
+	}
+
+	.think_company img{
+		width:55%;
+	}
+
+	.think_company2_list{
+		gap:60px;
+	}
+
+	.think_company3_content{
+		flex-wrap:wrap;
+	}
+
+	.think_company3_txt>p{
+		text-align:center;
+	}
+
+	/* 신제품 */
+	.new_product_txt h3{
+		font-size:28px;
+	}
+
+	.new_product_txt p{
+		font-size:16px;
+	}
+}
+
+@media (max-width:768px){
+	/*-------------- COMMON --------------*/
+	/* HEADER */
+	.gnb .header_bar{
+		display:block;
+	}
+
+	.gnb .gnb_list{
+		display:none;
+	}
+
+	header nav{
+		display:none;
+	}
+
+	.search_wrapper{
+		display:none;
+	}
+
+	header.on{
+		background:linear-gradient(transparent 113px, rgba(0,0,0,0.6) 113px); 
+    	box-shadow:none;
+	}
+
+	.header_bar i{
+		color:#fff;
+	}
+
+	aside nav .main_menu .sub_menu li{
+		color:#333;
+	}
+
+	/* popup */
+	.popup_box{
+		left:20px;
+		top:20px;
+		padding:50px 40px;
+	}
+
+	.popup_box h3{
+		font-size:16px;
+	}
+
+	.popup_box>p{
+		font-size:14px;
+		margin:0 0 15px;
+	}
+
+	.popup_box h4{
+		font-size:14px;
+	}
+
+	.portfolio_list{
+		font-size:14px;
+	}
+
+	.portfolio_subpage_list{
+		font-size:14px;
+		row-gap:0;
+		flex-wrap:wrap;
+	}
+
+	/* MAIN */
+	.brand_wrapper>.brand_wrap>h2,
+	.main3_news>h2,
+	.social_wrapper .social_content h3,
+	.main5_company>h2{
+		font-size:24px;
+	}
+
+	main>.subpage_content_wrapper>div>h2,
+	.subpage_content_wrapper .login_page h2,
+	.subpage_content_wrapper .join_page h2,
+	.sub_wrapper>.sub_wrap h2{
+		font-size:44px;
+	}
+
+	main>.subpage_content_wrapper>div>h3{
+		font-size:16px;
+		padding:0 20px 54px;
+	}
+
+	.sub_wrapper>.sub_wrap{
+		font-size:16px;
+	}
+
+	main>.subpage_content_wrapper>div.qna_service>h3{
+		padding-bottom: 108px;
+	}
+
+	.video_text>h3{
+		font-size:32px;
+		line-height:40px;
+	}
+
+	.video_text>p{
+		font-size:18px;
+	}
+
+	.subpage_content_wrapper .login_page{
+		width:70%;
+	}
+
+	.social_wrap{
+		flex-direction: column;
+	}
+
+	.brand_slide_wrap{
+		gap:0;
+		flex-direction:column;
+		width:100%;
+		padding-top:108px;
+	}
+
+	.brand_slide_img img{
+		width:70%;
+	}
+
+	.image_bg#main2_img_bg1{
+		width:100%;
+		left:20px;
+		top:-35px;
+	}
+	
+	.image_bg#main2_img_bg2{
+		width:100%;
+		left:50px;
+		top:0px;
+	}
+
+	.news_list li .news_hover .img_front img{
+		width:95%;
+	}
+
+	.brand_txt{
+		text-align:center;
+		align-items:center;
+		gap:0;
+		padding-top:30px;
+	}
+
+	.brand_txt>p:first-child{
+		font-size:40px;
+		line-height:40px;
+	}
+
+	.brand_txt>p:first-child span{
+		font-size:20px;
+	}
+
+	.brand_txt>p{
+		font-size:16px;
+	}
+
+	.brand_txt button{
+		font-size:16px;
+		padding: 12px 25px;
+	}
+
+	.news_list li>p,
+	.social_wrapper{
+		font-size:16px;
+	}
+
+	.social_wrapper>div{
+		width:100%;
+		flex-direction:column;
+	}
+
+	.charts{
+		padding:27px 0;
+	}
+
+	.charts .chart{
+		flex-wrap:wrap;
+		gap:0;
+		padding:0;
+	}
+
+	.chart_wrap{
+		padding:10px 40px;
+		font-size:16px;
+	}
+
+	.chart_wrap .chart_text span{
+		font-size:33px;
+	}
+
+	.chart_text{
+		font-size:16px;
+	}
+
+	.companys .company_list{
+		gap:0;
+		max-width:90%;
+		margin:0 auto;
+		flex-direction:column;
+	}
+
+	.companys .company_list li{
+		margin:5px 0;
+	}
+
+	.companys .company_list li a{
+		height:120px;
+	}
+
+	/* FOOTER */
+	footer .footer_wrapper{
+		flex-direction:column;
+	}
+
+	footer .footer_wrapper .footer_logo{
+		left:50px; 
+		top:40px;
+	}
+
+	footer .family_site{
+		order:1;
+		left:calc(100% - 170px);
+		top:-15px;
+	}
+
+	.fnb{
+		order:2;
+		padding-top:20px;
+	}
+
+	footer .footer_wrapper .fnb .fnb_list{
+		justify-content:center;
+		row-gap:0px;
+	}
+
+	footer .footer_wrapper address .footer_addr{
+		justify-content:center;
+		row-gap:0px;
+		flex-wrap:wrap;
+	}
+
+	footer .footer_wrapper address p{
+		text-align:center;
+	}
+
+	.news_list li:hover .news_hover{
+		transform:none;
+	}
+
+	/* Login */
+	.login_find_wrap{
+		font-size:14px;
+		line-height:20px;
+	}
+
+	/*-------------- SUBPAGE --------------*/
+	/* SUB_PAGE */
+	/* 회사소개 */
+	.think_company{
+		padding:0 50px;
+	}
+
+	.think_company img{
+		width:55%;
+	}
+
+	.think_company h4,
+	.think_company2 h4,
+	.think_company3 h4{
+		font-size:24px;
+	}
+
+	.think_complay_txt>p,
+	.think_company2_list li,
+	.think_company3_txt>p,
+	.sign p{
+		font-size:16px;
+	}
+
+	.think_company2_list{
+		gap:10px;
+	}
+
+	.think_company2_list li{
+		width:20%;
+		flex-wrap:wrap;    
+		padding: 90px 0 81px;
+	}
+
+	/* 오시는 길 */
+	.sub_addr i, .traffic i{
+		font-size:40px;
+	}
+
+	/* 신제품 */
+	.new_product_txt h3{
+		font-size:24px;
+	}
+
+	.new_product_txt p{
+		font-size:14px;
+	}
+
+	.new_product_img img:first-child{
+		display:none;
+	}
+
+	.new_product_img img:last-child{
+		display:block;
+	}
+
+	/* 전체제품보기 */
+	.product_list{
+		flex-wrap:wrap;
+	}
+
+	.product_list button{
+		min-width:25%;
+		font-size:16px;
+	}
+
+	.product_list>button:nth-of-type(5){
+		border-left:solid 1px #ccc;
+	}
+
+	.product_list>button:nth-of-type(4)~button{
+		border-top:none;
+	}
+
+	.mix-wrapper{
+		padding-top:54px;
+	}
+
+	.mix-wrapper>div{
+		width:28%;
+	}
+
+	/* FAQ */
+	.faq_tab .tabs_content{
+		padding:50px 50px;
+	}
+
+	.hitejinro_guide li,
+	.faq_tab_list li{
+		line-height:40px;
+	}
+
+	.hitejinro_guide li a,
+	.faq_tab_list li a{
+		font-size:16px;
+	}
+
+	.faq_tab .tabs_content .tabs_content_title{
+		font-size:16px;	
+	}
+
+	.faq_tab .tabs_content .tabs_txt{
+		padding: 30px 30px 50px;
+	}
+
+	/* QnA */
+	.qna_write{
+		font-size:16px;
+		width:100px;
+	}
+	
+	/* 인재상 */
+	.people_info{
+		padding:0 27px;
+	}
+
+	.people_info_list{
+		flex-wrap:wrap;
+	}
+
+	.people_info_list li{
+		height:200px;
+		padding:20px;
+		width:50%;
+	}
+
+	.people_info_list li:nth-child(2n){
+		margin-top:0;
+	}
+
+	.people_info_list_etc .people_info_wrap h3{
+		font-size:30px;
+	}
+
+	.people_info_list_etc .people_info_wrap p{
+		font-size:16px;
+	}
+
+}
+
+@media (max-width:600px){
+	/*-------------- COMMON --------------*/
+	/* MAIN */
+	/* Login */
+	.subpage_content_wrapper .login_page{
+		width:80%;
+	}
+
+	/*-------------- SUBPAGE --------------*/
+	/* SUB_PAGE */
+
+	/* 회사소개 */
+	.think_company{
+		flex-wrap:wrap;
+		justify-content:flex-end;
+	}
+
+	.think_company img{
+		width:100%;
+	}
+
+	.think_complay_txt{
+		margin-top:0;
+		padding:27px 0;
+	}
+
+	.think_company2 h4{
+		padding-top:54px;
+	}
+
+	.think_company2_list{
+		gap:50px;
+		flex-wrap:wrap;
+	}
+
+	.think_company2_list li{
+		padding: 90px 0 27px;
+		white-space:nowrap;
+	}
+
+	/* 오시는 길 */
+	#map{
+		height:300px;
+	}
+
+	.sub_addr>p{
+		font-size:16px;
+		padding:15px 20px;
+		line-height:27px;
+	}
+
+	.sub_addr .addr_list{
+		font-size:14px;
+	}
+
+	.traffic{
+		font-size:16px;
+		flex-wrap:wrap;
+		gap:70px;
+		padding:54px 20px 0;
+	}
+
+	/* 신제품 */
+	.new_brand_wrap>.new_product_wrap:nth-of-type(2n-1)>div>.new_product_txt{
+		padding:0 0 100px 40px;
+	}
+
+	.new_brand_wrap>.new_product_wrap:nth-of-type(2n)>div>.new_product_txt{
+		padding:0 40px 100px 10px;
+		box-sizing: border-box;
+	}
+
+	.new_product_img img{
+		width:150px;
+	} 
+
+	/* FAQ */
+	.faq_tab .tabs_content{
+		padding:50px 10px;
+	}
+
+	/* 인재상 */
+	.people_info{
+		padding:0;
+	}
+
+	.people_info_list{
+		padding:0 20px;
+	}
+
+	.people_info_list li{
+		width:100%;
+		padding:20px 40px 0;
+	}
+
+	.people_info_list_etc>div.people_info_list2{
+		justify-content:flex-start;
+		padding-right:0;
+	}
+
+	.people_info_list_etc .people_info_wrap{
+		padding:0 40px;
+	}
+}
+
+@media (max-width:500px){
+	/*-------------- COMMON --------------*/
+	/* header bar*/
+	.gnb .header_bar{
+		right:-20px;
+	}
+	/*-------------- SUBPAGE --------------*/
+	/* SUB_PAGE */
+
+	/* 신제품 */
+	.new_product_img img:last-child{
+		display:none;
+	}
+
+	/* 전체제품보기 */
+	.mix-wrapper{
+		gap:15px;
+	}
+
+	.mix-wrapper>div{
+		width:28%;
+	}
+
+}
+
+
+@media (max-width:450px){
+	/* MAIN */
+	.chart_wrap{
+		padding:0px;
+		width:100%;
+		font-size:16px;
+	}
+
+	.popup_box{
+		padding:50px 20px;
+	}
+
+	/* FOOTER */
+	footer .footer_wrapper .footer_logo{
+		left:20px; 
+	}
+
+	footer .family_site{
+		left:calc(100% - 140px);
+	}
+
+	/* Login */
+	.login_find_wrap{
+		display:block;
+	}
+
+	.login_find_wrap .login_find{
+		margin-top:20px;
+		gap:0;
+		justify-content:space-between;
+	}
+}
+
+
