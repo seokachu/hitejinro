@@ -101,8 +101,8 @@ var menu = $('header nav'),
         
         $(window).scroll(function(){
             var winOST = $(this).scrollTop();
-
-            if(winOST > 0){
+            
+            if(winOST > 50){
                 subHeader.addClass('on');
                 subHeader.find('nav .main_menu>li>a').css('color','#333');
             }else{
@@ -116,7 +116,6 @@ var menu = $('header nav'),
                 subHeader.removeClass('hide');
             }
                 lastScroll = winOST;
-
         }); 
 
 
@@ -136,4 +135,4 @@ var menu = $('header nav'),
                 e.preventDefault();
                 $('html, body').animate({scrollTop:0},500);
             });
-    
+        
